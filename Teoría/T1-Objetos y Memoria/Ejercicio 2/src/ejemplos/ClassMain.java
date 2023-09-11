@@ -5,7 +5,7 @@ import java.util.Scanner;
 //import java.util.Locale 
 import java.lang.Math;
 
-public class App {
+public class ClassMain {
     public static void main(String[] args) throws Exception {
         System.out.print("Introduce el radio de un círculo: ");
         Scanner input = new Scanner (System.in);
