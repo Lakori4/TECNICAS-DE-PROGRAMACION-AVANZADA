@@ -1,10 +1,12 @@
 package p1;
 import p2.*;
+import java.util.Calendar;
 
 public class MyApp {
     public static void main(String[] args) throws Exception {
         Average A1 = new Average(4, 2);
         Average A2 = new Average(2, 4, 9);
+        Calendar calendar = Calendar.getInstance();
         
         double [] valores = {4, 5, 8, 9};
         ArrayAverage A3 = new ArrayAverage(valores);
@@ -13,38 +15,41 @@ public class MyApp {
         System.out.println(A2.getMedia());
         System.out.println(A3.getMedia());
 
+        int currentDay =  calendar.get(Calendar.DAY_OF_WEEK);
+
         Semana hoy = Semana.LUNES;
-        switch (hoy) {
-            case LUNES:
-                System.out.println("Hoy es lunes.");
+        switch (currentDay) {
+            case 2:
+                hoy = Semana.LUNES;
                 break;
 
-            case MARTES:
-                System.out.println("Hoy es martes.");
+            case 3:
+                hoy = Semana.MARTES;
                 break;
 
-            case MIÉRCOLES:
-                System.out.println("Hoy es miércoles.");
+            case 4:
+                hoy = Semana.MIÉRCOLES;
                 break;
 
-            case JUEVES:
-                System.out.println("Hoy es jueves.");
+            case 5:
+                hoy = Semana.JUEVES;
                 break;
 
-            case VIERNES:
-                System.out.println("Hoy es viernes.");
+            case 6:
+                hoy = Semana.VIERNES;
                 break;
 
-            case SÁBADO:
-                System.out.println("Hoy es sábado.");
+            case 7:
+                hoy = Semana.SÁBADO;
                 break;
 
-            case DOMINGO:
-                System.out.println("Hoy es domingo.");
+            case 1:
+                hoy = Semana.DOMINGO;
                 break;
         
             default:
                 break;
         }
+        System.out.println("Hoy es " + hoy + ".");
     }
 }
