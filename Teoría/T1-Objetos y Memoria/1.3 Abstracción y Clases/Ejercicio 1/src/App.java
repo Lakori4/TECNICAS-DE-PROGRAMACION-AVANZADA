@@ -32,7 +32,7 @@ class Persona {
 
         System.out.print("\tIntroduzca la edad de la persona: ");
         setEdad(input.nextInt());
-        //input.close();
+        input.close();
     }
 
     
