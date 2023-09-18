@@ -17,7 +17,7 @@ public class ArrayAverage {
     }
 
     public String getMedia() {
-        return "Desde paquete p2 " + media;
+        return "Desde paquete p2: " + media;
     }
 
     

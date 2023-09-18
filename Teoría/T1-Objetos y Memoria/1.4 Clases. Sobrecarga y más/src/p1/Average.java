@@ -21,7 +21,7 @@ public class Average {
 
 
     public String getMedia() {
-        return "(Desde paquete p1) " + media;
+        return "Desde paquete p1: " + media;
     }
 
     
