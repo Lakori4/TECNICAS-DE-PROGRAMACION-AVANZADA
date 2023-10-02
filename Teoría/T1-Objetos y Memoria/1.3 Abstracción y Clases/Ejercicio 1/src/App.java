@@ -41,7 +41,7 @@ class Persona {
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("\n\nD7ATOS PERSONA 1");
+        System.out.println("\n\nDATOS PERSONA 1");
         Persona p1 = new Persona();
         System.out.println("\nDATOS PERSONA 2");
         Persona p2 = new Persona();
