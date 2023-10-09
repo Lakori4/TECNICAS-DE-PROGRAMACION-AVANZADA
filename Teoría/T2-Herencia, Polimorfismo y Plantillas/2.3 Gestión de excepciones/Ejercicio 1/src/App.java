@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class App {
 
-    public static int askNum() {
+    public static int askNum() throws Exception {
 
         System.out.print("Escribe un número entero: ");
         Scanner input = new Scanner(System.in);
