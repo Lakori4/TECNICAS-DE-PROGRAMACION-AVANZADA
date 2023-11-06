@@ -1,6 +1,8 @@
 
 public class App  {
 
+
+
     /**
      * @param <T>
      * @param m1
@@ -8,15 +10,13 @@ public class App  {
      * @return
      */
     static <T> boolean equalMatrix(T[][] m1, T[][] m2){
-
-        boolean isEqual = true;
         
         for (int i = 0; i < m1.length; i++) {
             for (int j = 0; j < m1[i].length; j++) {
-                if (m1[i][j] != m2 [i][j]) isEqual = false;
+                if (m1[i][j] != m2 [i][j]) return false;
             }             
         }
-        return isEqual;
+        return true;
     }   
     
     //static void print
