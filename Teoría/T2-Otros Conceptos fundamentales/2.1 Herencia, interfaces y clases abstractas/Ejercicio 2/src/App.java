@@ -1,5 +1,12 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Lion l = new Lion();
+        Tiger t = new Tiger();
+
+        l.eat();
+        l.sleep();
+
+        t.eat();
+        t.sleep();
     }
 }
