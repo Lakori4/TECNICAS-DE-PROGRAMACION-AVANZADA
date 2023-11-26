@@ -61,7 +61,7 @@ class ExFrameEvents extends JFrame implements ActionListener {
     }
 }
 
-public class Main {
+class Window {
 
     /**
      * El punto de entrada del programa.
