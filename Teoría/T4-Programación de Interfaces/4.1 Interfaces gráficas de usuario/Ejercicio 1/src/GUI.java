@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class GUI extends JFrame {
     public GUI (){
@@ -11,6 +12,8 @@ public class GUI extends JFrame {
         JLabel etiqueta = new JLabel("Mensaje");
         JTextField campo = new JTextField(20); //El campo admite 20 caracteres
         JButton boton = new JButton("Aceptar");
+
+        etiqueta.setFont(new Font("Segoe UI", Font.PLAIN, 12));
 
         //Creo el panel
         JPanel panel = new JPanel();
