@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.lang.Math;
 
 public class T1_1_2 {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         System.out.print("Introduce el radio de un círculo: ");
         Scanner input = new Scanner (System.in);
         double radio = input.nextDouble();

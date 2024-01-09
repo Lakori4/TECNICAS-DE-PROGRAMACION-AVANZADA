@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class T2_3_1 {
 
-    public static int askNum() throws Exception {
+    public static void askNum() throws Exception {
 
         System.out.print("Escribe un número entero: ");
         Scanner input = new Scanner(System.in);
@@ -13,10 +13,9 @@ public class T2_3_1 {
             throw new Exception("EL NÚMERO " + n + " ES IMPAR");
         }
         else{
-        return n;
         }
     }
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         try {
             askNum();
         } catch (Exception e) {

@@ -1,3 +1,3 @@
 public interface Character {
-    public void equip();
+    void equip();
 }

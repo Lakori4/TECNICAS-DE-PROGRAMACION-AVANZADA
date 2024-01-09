@@ -22,7 +22,7 @@ public class T2_4_1 {
     //static void print
     
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         Integer [][] m1 = {{1, 4, 7}, {2, 5, 8}, {3, 6, 9}};
         Integer [][] m2 = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
         if (equalMatrix(m1, m2)) { System.out.print("Las matrices son iguales.\n"); }

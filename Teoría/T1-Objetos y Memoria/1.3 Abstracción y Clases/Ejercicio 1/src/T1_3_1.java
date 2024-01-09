@@ -40,7 +40,7 @@ class Persona {
 
 
 public class T1_3_1 {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         System.out.println("\n\nDATOS PERSONA 1");
         Persona p1 = new Persona();
         System.out.println("\nDATOS PERSONA 2");

@@ -24,6 +24,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Teoría/T2-Otros Conceptos fundamentales/2.3 Gestión de excepciones/Ejercicio 2/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Teoría/T2-Otros Conceptos fundamentales/2.4 Generacidad y Plantillas/Ejercicio 1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Teoría/T3-Patrones de Diseño/3.3 Patrones estructurales/Ejercicio1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Teoría/T5-Temas Avnazados/5.1 Concurrencia/Carrera de camellos/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Teoría/T5-Temas Avnazados/5.3 Expresiones avanzadas/Luna/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Teoría/T5-Temas Avnazados/5.3 Expresiones avanzadas/Serializacion/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 
 public class T1_2_1 {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         System.out.print("Introduce una letra: ");
         Scanner input = new Scanner (System.in);
         String carac = input.next();

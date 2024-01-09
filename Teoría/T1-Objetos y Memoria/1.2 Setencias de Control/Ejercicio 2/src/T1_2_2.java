@@ -5,9 +5,8 @@ import java.util.Scanner;
 public class T1_2_2 {
     /**
      * @param args
-     * @throws Exception
      */
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         System.out.print("Introduce un número entero: ");
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();

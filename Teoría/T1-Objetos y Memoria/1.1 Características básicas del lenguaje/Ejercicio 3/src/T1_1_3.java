@@ -3,7 +3,7 @@
 import java.util.Scanner;
 
 public class T1_1_3 {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         System.out.print("Introduce el primer número: ");
         Scanner input = new Scanner(System.in);
         float n1 = input.nextFloat();

@@ -1,8 +1,8 @@
 public abstract class CharacterDecorator implements Character {
     private Character personaje;
 
-    public CharacterDecorator(Character personaje) {
-        this.personaje = personaje;
+    public CharacterDecorator(Character p) {
+        personaje = p;
     }
 
     @Override

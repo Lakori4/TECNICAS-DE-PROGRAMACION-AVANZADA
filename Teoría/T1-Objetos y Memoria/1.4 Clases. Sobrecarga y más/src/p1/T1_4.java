@@ -3,7 +3,7 @@ import p2.*;
 import java.util.Calendar;
 
 public class T1_4 {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         Average A1 = new Average(4, 2);
         Average A2 = new Average(2, 4, 9);
         Calendar calendar = Calendar.getInstance();
