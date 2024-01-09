@@ -4,6 +4,6 @@ public class Main {
         BasicCharacter c1 = new BasicCharacter("Santi");
         c1.equip();
 
-        BasicCharacter e = new Sword(c1);
+        //BasicCharacter e = new Sword(c1);
     }
 }
